@@ -5,6 +5,7 @@ import (
 )
 
 func main() {
-	basic.SayHello("Sajib")
-	basic.Import()
+	// basic.SayHello("Sajib")
+	// basic.Import()
+	basic.Variables()
 }
