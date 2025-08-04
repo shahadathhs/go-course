@@ -9,5 +9,6 @@ func main() {
 	// basic.Import()
 	// basic.Variables()
 	// basic.NamingConventions()
-	basic.Constants()	
+	// basic.Constants()
+	basic.ArithmeticOperators()	
 }
