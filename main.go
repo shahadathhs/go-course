@@ -5,11 +5,12 @@ import (
 )
 
 func main() {
-	basic.SayHello("Sajib")
+	// basic.SayHello("Sajib")
 	// basic.ImportExamples()
 	// basic.Variables()
 	// basic.NamingConventions()
 	// basic.DataTypes()
 	// basic.Constants()
 	// basic.ArithmeticOperators()
+	basic.ForLoop()
 }
