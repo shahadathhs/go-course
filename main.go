@@ -5,9 +5,9 @@ import (
 )
 
 func main() {
-	// basic.SayHello("Sajib")
-	// basic.Import()
-	basic.Variables()
+	basic.SayHello("Sajib")
+	// basic.ImportExamples()
+	// basic.Variables()
 	// basic.NamingConventions()
 	// basic.DataTypes()
 	// basic.Constants()
