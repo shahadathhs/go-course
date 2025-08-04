@@ -1,3 +1,5 @@
+// constants.go
+// Package basic shows all the ways to declare and use constants in Go.
 package basic
 
 import (

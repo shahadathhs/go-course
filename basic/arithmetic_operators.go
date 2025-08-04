@@ -1,3 +1,6 @@
+// arithmetic_operators.go
+// Package basic demonstrates Go’s arithmetic operators,
+// compound assignments, increment/decrement, and overflow behavior.
 package basic
 
 import (
