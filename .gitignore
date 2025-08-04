@@ -1,0 +1,51 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go build output
+/go-course
+**/go-course
+
+# Output from `go build` or `go run`
+*.a
+*.o
+
+# Go workspace
+bin/
+pkg/
+*.mod.tmp
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# Logs and temporary files
+*.log
+*.tmp
+*.cache
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Shell history (optional, if accidentally added)
+.bash_history
+.zsh_history
+
+# GitHub Actions cache folders (optional)
+.github/workflows/*.cache/
+
+# Ignore everything inside this example if needed:
+# !basic/
+# !intermediate/
+# !advanced/
