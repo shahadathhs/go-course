@@ -63,7 +63,7 @@ const (
 func NamingConventions() {
     // Using exported constructor
     emp := NewEmployee("Alice", "Smith", 28)
-    fmt.Println("Employee:", emp)
+    fmt.Println("Employee: ", emp)
 
     // Using exported function
     salary := CalculateSalary(emp, 1000)

@@ -7,8 +7,8 @@ import (
 func main() {
 	// basic.SayHello("Sajib")
 	// basic.Import()
-	// basic.Variables()
-	basic.NamingConventions()
+	basic.Variables()
+	// basic.NamingConventions()
 	// basic.DataTypes()
 	// basic.Constants()
 	// basic.ArithmeticOperators()	
