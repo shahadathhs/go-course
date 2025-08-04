@@ -8,5 +8,6 @@ func main() {
 	// basic.SayHello("Sajib")
 	// basic.Import()
 	// basic.Variables()
-	basic.NamingConventions()
+	// basic.NamingConventions()
+	basic.Constants()	
 }
