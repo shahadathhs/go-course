@@ -11,5 +11,5 @@ func main() {
 	// basic.NamingConventions()
 	// basic.DataTypes()
 	// basic.Constants()
-	// basic.ArithmeticOperators()	
+	// basic.ArithmeticOperators()
 }

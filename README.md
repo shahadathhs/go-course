@@ -28,6 +28,12 @@ Or run individual files for practice:
 go run basic/variables.go
 ```
 
+Check formatting 
+
+```bash
+gofmt -w .
+```
+
 ---
 
 ## ✅ Prerequisites
