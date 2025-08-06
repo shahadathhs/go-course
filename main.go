@@ -12,5 +12,7 @@ func main() {
 	// basic.DataTypes()
 	// basic.Constants()
 	// basic.ArithmeticOperators()
-	basic.ForLoop()
+	// basic.ForLoop()
+	// basic.ForAsWhile()
+	basic.GuessingGame()
 }
