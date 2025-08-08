@@ -14,5 +14,6 @@ func main() {
 	// basic.ArithmeticOperators()
 	// basic.ForLoop()
 	// basic.ForAsWhile()
-	basic.GuessingGame()
+	// basic.GuessingGame()
+	basic.IfElse()
 }
