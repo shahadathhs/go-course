@@ -16,5 +16,6 @@ func main() {
 	// basic.ForAsWhile()
 	// basic.GuessingGame()
 	// basic.IfElse()
-	basic.SwitchCase()
+	// basic.SwitchCase()
+	basic.Arrays()	
 }
