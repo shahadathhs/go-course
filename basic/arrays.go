@@ -63,7 +63,7 @@ func Arrays() {
 
 	fmt.Println("\n--- Arrays in Go ---")
 	// Arrays in Go have fixed length — cannot grow or shrink.
-	// Assigning an array to another copies all elements. 
-	// Use a pointer (*[N]T) if you want to share the same array without copying. 
+	// Assigning an array to another copies all elements.
+	// Use a pointer (*[N]T) if you want to share the same array without copying.
 	// For dynamic collections, use slices instead.
 }

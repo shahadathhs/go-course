@@ -17,5 +17,5 @@ func main() {
 	// basic.GuessingGame()
 	// basic.IfElse()
 	// basic.SwitchCase()
-	basic.Arrays()	
+	basic.Arrays()
 }
