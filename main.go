@@ -19,5 +19,6 @@ func main() {
 	// basic.SwitchCase()
 	// basic.Arrays()
 	// basic.Slices()
-	basic.Maps()
+	// basic.Maps()
+	basic.Range()
 }
