@@ -18,5 +18,6 @@ func main() {
 	// basic.IfElse()
 	// basic.SwitchCase()
 	// basic.Arrays()
-	basic.Slices()
+	// basic.Slices()
+	basic.Maps()
 }
