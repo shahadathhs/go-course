@@ -20,5 +20,6 @@ func main() {
 	// basic.Arrays()
 	// basic.Slices()
 	// basic.Maps()
-	basic.Range()
+	// basic.Range()
+	basic.Functions()
 }
