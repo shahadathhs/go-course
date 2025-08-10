@@ -4,6 +4,7 @@ package basic
 import "fmt"
 
 func Functions() {
+	// Syntax: func <name>(parameters) returnType { ... }
 
 	// --- 1. BASIC FUNCTION CALL ---
 
@@ -14,7 +15,6 @@ func Functions() {
 	// Functions can be called directly
 	fmt.Println("2 + 3 =", add(2, 3))
 
-
 	// --- 2. ANONYMOUS FUNCTIONS ---
 
 	// Anonymous functions don't have a name — useful for quick one-time operations
@@ -23,14 +23,12 @@ func Functions() {
 	}
 	greet() // Call it like any other function
 
-
 	// --- 3. FUNCTIONS AS VARIABLES ---
 
 	// You can assign a function to a variable and call it later
 	operation := add
 	result := operation(3, 5)
 	fmt.Println("3 + 5 =", result)
-
 
 	// --- 4. PASSING FUNCTIONS AS ARGUMENTS ---
 
@@ -43,7 +41,6 @@ func Functions() {
 		return a * b
 	})
 	fmt.Println("5 * 3 =", result)
-
 
 	// --- 5. RETURNING FUNCTIONS (CLOSURES) ---
 
@@ -58,7 +55,6 @@ func Functions() {
 	// Each returned function keeps its own copy of the environment variable (factor)
 	// This is called a closure
 }
-
 
 // --- 6. FUNCTION DEFINITIONS ---
 

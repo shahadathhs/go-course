@@ -22,5 +22,6 @@ func main() {
 	// basic.Maps()
 	// basic.Range()
 	// basic.Functions()
-	basic.MultipleReturnValues()
+	// basic.MultipleReturnValues()
+	basic.VariadicFunctions()
 }
