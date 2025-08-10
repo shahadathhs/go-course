@@ -21,5 +21,6 @@ func main() {
 	// basic.Slices()
 	// basic.Maps()
 	// basic.Range()
-	basic.Functions()
+	// basic.Functions()
+	basic.MultipleReturnValues()
 }
