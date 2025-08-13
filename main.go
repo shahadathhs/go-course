@@ -23,5 +23,6 @@ func main() {
 	// basic.Range()
 	// basic.Functions()
 	// basic.MultipleReturnValues()
-	basic.VariadicFunctions()
+	// basic.VariadicFunctions()
+	basic.Defer()
 }
