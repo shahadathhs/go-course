@@ -26,5 +26,6 @@ func main() {
 	// basic.VariadicFunctions()
 	// basic.Defer()
 	// basic.Panic()
-	basic.Recover()
+	// basic.Recover()
+	basic.Exit()
 }
