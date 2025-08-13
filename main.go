@@ -24,5 +24,6 @@ func main() {
 	// basic.Functions()
 	// basic.MultipleReturnValues()
 	// basic.VariadicFunctions()
-	basic.Defer()
+	// basic.Defer()
+	basic.Panic()
 }
