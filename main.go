@@ -27,5 +27,6 @@ func main() {
 	// basic.Defer()
 	// basic.Panic()
 	// basic.Recover()
-	basic.Exit()
+	// basic.Exit()
+	basic.Init()
 }
