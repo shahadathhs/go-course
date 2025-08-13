@@ -56,8 +56,8 @@ func processPanic(input int) {
 		panic(fmt.Sprintf("Invalid input: %d (must be non-negative)", input))
 
 		// These lines are unreachable after panic
-		// fmt.Println("After panic") 
-		// defer fmt.Println("Deferred after panic") 
+		// fmt.Println("After panic")
+		// defer fmt.Println("Deferred after panic")
 	}
 
 	// Normal execution when no panic

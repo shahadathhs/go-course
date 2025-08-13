@@ -1,4 +1,4 @@
-// init.go  
+// init.go
 // Package basic demonstrates the use of the `init()` function in Go
 package basic
 

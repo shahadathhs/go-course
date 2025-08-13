@@ -41,7 +41,7 @@ func processRecover() {
 
 	fmt.Println("Start Process")
 	panic("Something went wrong!") // Triggers panic
-	fmt.Println("End Process")     // Not executed
+	// fmt.Println("End Process")     // Not executed
 }
 
 // ------------------------------------------------------------------
