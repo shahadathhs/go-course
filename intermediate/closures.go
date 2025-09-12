@@ -17,7 +17,7 @@ import "fmt"
 func Closures() {
 	// Example 1: Basic adder closure
 	fmt.Println("=== Example 1: Basic adder closure ===")
-	sequence := adder() // returns a closure
+	sequence := adder()     // returns a closure
 	fmt.Println(sequence()) // 1
 	fmt.Println(sequence()) // 2
 	fmt.Println(sequence()) // 3

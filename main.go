@@ -2,7 +2,7 @@ package main
 
 import (
 	// import the package using module name + folder"
-	"go-course/basic";
+	// "go-course/basic";
 	"go-course/intermediate"
 )
 
@@ -31,7 +31,7 @@ func main() {
 	// basic.Panic()
 	// basic.Recover()
 	// basic.Exit()
-	basic.Init()
+	// basic.Init()
 
 	// This is from intermediate package
 	intermediate.Closures()
