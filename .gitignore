@@ -49,3 +49,9 @@ pkg/
 # !basic/
 # !intermediate/
 # !advanced/
+
+# other
+tmp/
+temp/
+dist/
+vendor/

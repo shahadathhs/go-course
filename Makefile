@@ -20,16 +20,16 @@ vet:
 
 # Build and run using Docker Compose
 docker-build:
-	docker-compose build
+	docker compose build
 
 docker-up:
-	docker-compose up
+	docker compose up
 
 docker-up-detach:
-	docker-compose up -d
+	docker compose up -d
 
 docker-down:
-	docker-compose down
+	docker compose down
 
 docker-reload:
-	docker-compose down && docker-compose up -d
+	docker compose down && docker compose up -d

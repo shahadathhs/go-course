@@ -50,3 +50,9 @@ node_modules/
 # Ignore Docker-related files
 Dockerfile
 compose.yml
+
+# other
+vendor
+tmp
+temp
+dist
