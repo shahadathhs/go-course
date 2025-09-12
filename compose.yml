@@ -1,0 +1,8 @@
+services:
+  go-course:
+    build: .
+    volumes:
+      - .:/app  # Mount current folder for live reload
+    ports:
+      - "8080:8080"  # Optional: only if you serve web content
+    command: air -c .air.toml

@@ -12,6 +12,11 @@ echo "🧹 Running go vet..."
 go vet ./...
 echo "✅ go vet passed."
 
+echo 
+echo "🧹 Running go mod tidy..."
+go mod tidy && git diff --exit-code go.mod go.sum || (echo "❌ go.mod or go.sum is not tidy" && exit 1)
+echo "✅ go mod tidy passed."
+
 echo
 echo "🧽 Checking code formatting with gofmt..."
 UNFORMATTED=$(gofmt -l .)
