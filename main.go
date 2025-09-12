@@ -1,10 +1,13 @@
 package main
 
 import (
-	"go-course/basic" // import the package using module name + folder"
+	// import the package using module name + folder"
+	// "go-course/basic";
+	"go-course/intermediate"
 )
 
 func main() {
+	// This is from basic package
 	// basic.SayHello("Sajib")
 	// basic.ImportExamples()
 	// basic.Variables()
@@ -28,5 +31,8 @@ func main() {
 	// basic.Panic()
 	// basic.Recover()
 	// basic.Exit()
-	basic.Init()
+	// basic.Init()
+
+	// This is from intermediate package
+	intermediate.Closures()
 }
