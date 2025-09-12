@@ -8,4 +8,5 @@ pre-push:
   parallel: false
   commands:
     run-main:
-      run: go run main.go
+      run: timeout 5s go run main.go
+
