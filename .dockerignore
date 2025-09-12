@@ -56,3 +56,4 @@ vendor
 tmp
 temp
 dist
+*.md

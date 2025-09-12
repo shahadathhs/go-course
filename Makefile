@@ -33,3 +33,16 @@ docker-down:
 
 docker-reload:
 	docker compose down && docker compose up -d
+
+docker-logs:
+	docker compose logs -f
+
+docker-push:
+	docker compose push
+
+docker-pull:
+	docker compose pull
+
+docker-clean:
+	docker system prune -f
+	docker volume prune -f
