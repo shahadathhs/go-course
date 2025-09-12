@@ -1,0 +1,11 @@
+pre-commit:
+  parallel: false
+  commands:
+    ci-check:
+      run: ./ci_check.sh
+
+pre-push:
+  parallel: false
+  commands:
+    run-main:
+      run: go run main.go
