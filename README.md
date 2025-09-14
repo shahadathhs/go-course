@@ -11,8 +11,8 @@ It is organized into three progressive folders to separate beginner, intermediat
 
 go-course/
 ├── basic/          # Go fundamentals: variables, constants, data types, functions, control flow, arrays, slices, maps, structs, interfaces, imports, etc.
-├── intermediate/   # (WIP) Concurrency (goroutines, channels), error handling, methods, file I/O, testing, modules, etc.
-├── advanced/       # (WIP) Generics, reflection, unsafe, context, performance tuning, Go internals, etc.
+├── intermediate/   # (WIP) 
+├── advanced/       # (WIP)
 ├── go.mod          # Go module definition
 └── main.go         # Entry point (optional runner or aggregator)
 
