@@ -34,5 +34,6 @@ func main() {
 	// basic.Init()
 
 	// This is from intermediate package
-	intermediate.Closures()
+	// intermediate.Closures()
+	intermediate.Recursion()
 }
